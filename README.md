@@ -13,3 +13,7 @@ This took about 2 hours, start to finish, including watching John's solution and
 ## Biggest Take Away(s)
 
 I couldn't for the life of me remember how I coded my last calculator project. This goes to show that continuous coding and going back to previous problems is just the name of the game. 
+
+## Calculator Controls
+
+Use the buttons or keyboard to enter numbers and the `+`, `-`, `*`, and `/` operators. Press `Enter` or `=` to calculate, `Backspace` to delete the last character, and `C` or `Escape` to clear the display. Decimal numbers and standard operator precedence are supported. Invalid expressions and division by zero are reported on the display; expressions are evaluated without `eval()`.
