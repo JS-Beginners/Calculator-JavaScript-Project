@@ -5,14 +5,14 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Recording</title>
+ <title>Calculator</title>
  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
- <section class="calculator">
+ <main class="calculator" aria-label="Calculator">
   <form>
-   <input type="text" name="" id="" class="screen">
+   <input type="text" id="screen" class="screen" aria-label="Calculator display" aria-live="polite" inputmode="decimal" autocomplete="off" spellcheck="false">
   </form>
   <div class="buttons">
    <!-- yellow -->
@@ -34,20 +34,9 @@
    <button type="button" class="btn btn-grey" data-num="0">0</button>
    <button type="button" class="btn-equal btn-grey">=</button>
    <button type="button" class="btn-clear btn-grey">C</button>
-
-
+   <button type="button" class="btn-backspace btn-grey" aria-label="Backspace">&larr;</button>
   </div>
-
-
-
-
-
- </section>
-
-
-
-
-
+ </main>
  <script src="./app.js"></script>
 </body>
 
